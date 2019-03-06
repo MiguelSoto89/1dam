@@ -12,8 +12,20 @@ public class empleados {
 		this.app=app;
 		this.dir=dir;
 		this.telef=telef;
+		
 	}
-
+	
+	public int numero_elementos(String nombre) {
+		return nombre.length();
+	}
+	
+	public String cad_mayus(String app) {
+		return app.toUpperCase();
+	}
+	
+	public int IDxCinco(int ID) {
+		return ID*5;
+	}
 	public int getID() {
 		return ID;
 	}
